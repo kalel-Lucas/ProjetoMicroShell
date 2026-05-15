@@ -3,7 +3,7 @@
 #include "terminal.h"
 
 void mostrar_prompt () {
-    printf("\nMicro Shell > ");
+    printf("\n\nMicro Shell > ");
     char buffer[100];
     ler_comando(buffer); 
     printf("\n\n\nVoce acabou de digitar: %s",buffer); 
